@@ -7,6 +7,16 @@ table, td {
     border: 1px solid green;
 }
 
+#Library {
+   background-image: url('Images/LibraryTransparent.png');
+   height: 70px;
+   width: 120px;
+}
+
+#Library:hover {
+   background-image: url('Images/LibraryHoverTrans.png');
+}
+
 ul.nav li{
   display: inline-block;
   padding-right:10px;
@@ -15,7 +25,7 @@ ul.nav li{
 .h1 { font-family 'Helvetica', sans-serif;}
 
 .color-info {
-  border:3px solid black;
+  border:3px solid green;
 }
 
 body {
