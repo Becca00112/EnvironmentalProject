@@ -1,46 +1,47 @@
-
-h1 {color:green}
-
-
-table, td {
-    border-collapse: collapse;
-    border: 0px solid green;
+@font-face {
+	font-family: BrandonTextRegular;
+	src: url(../assets/BrandonTextRegular.otf);
 }
 
-#Library {
-   background-image: url('Images/LibraryTransparent.png');
-   height: 70px;
-   width: 120px;
-}
-
-#Library:hover {
-   background-image: url('Images/LibraryHoverTrans.png');
-}
-
-ul.nav li{
-  display: inline-block;
-  padding-right:0px;
-  background-color: green;
-
-.h1 { font-family 'Helvetica', sans-serif;}
-
-.color-info {
-  border:3px solid green;
+@font-face {
+	font-family: BrandonTextRegular;
+  font-weight: 700;
+	src: url(../assets/BrandonTextBold.otf);
 }
 
 body {
-img.resize
-  max-width:50%;
-  max-height:50%;
+  background-color:#F0FFE5;
+  font-family: BrandonTextRegular, 'sans-serif';
 }
 
-.important{
-font-size: 16px;
-font-weight: bold;
+nav {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.nav a {
-  color: red;
-  background-color: white;
-  padding-top: 70px;
+#movers-row div {
+	width: 10%;
+	float: left;
+}
+
+.roundedImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%
+}
+
+/* .container {
+  border: 1px solid black;
+} */
+
+img {
+  display:block;
+}
+
+footer {
+  display: none;
+}
+
+#windfarmFigure > * {
+  width: 100%;
 }
