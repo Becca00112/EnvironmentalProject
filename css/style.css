@@ -38,10 +38,6 @@ img {
   display:block;
 }
 
-footer {
-  display: none;
-}
-
 #windfarmFigure > * {
   width: 100%;
 }
