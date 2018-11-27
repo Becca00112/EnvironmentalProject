@@ -24,6 +24,16 @@ nav {
 	float: left;
 }
 
+
+.circle_container
+{
+	width : 128px;
+	height : 128px;
+	margin : 0;
+	padding : 0;
+}
+
+
 .roundedImage {
   height: 100px;
   width: 100px;
