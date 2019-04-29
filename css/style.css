@@ -52,6 +52,10 @@ img {
   width: 100%;
 }
 
+#ShoppingBasket > * {
+  width: 100%;
+}
+
 .lead {
 	font-weight: 500;
 	text-align: center;
